@@ -1,1 +1,8 @@
-# goiteens-courses
+# Курсы GoIteens
+* Программирование для детей 1 (Scratch)
+* Программирование для детей 2 (Minecraft)
+* Создание сайтов для детей (FrontEnd junior)
+* Создание сайтов (FrontEnd)
+* ИТ-дизайн (DigitalArt)
+* Разработка игр (Game Dev)
+* Программирование и анализ данных (Python)
