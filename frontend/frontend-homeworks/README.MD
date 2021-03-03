@@ -2,6 +2,7 @@
 ## Модуль 1. Верстка сторінки HTML
 <img src = "./img/homework-01.png">
 <a href = "./psd/homework-01.psd">Проект в форматі PSD</a>
+<a href = "./img/task1.zip">Картинки в архіві zip</a>
 
 ## Модуль 2. Завантаження завдання №1 на GitHub
 
