@@ -30,3 +30,14 @@
 ## Корретировки
 По результатам проведенных по материалам курсов занятий от преподавателей курса собирается обратная связь. По каждой обратной связи разработчиком программы принимается решение (исправить/доработать, принять к сведению, оставить как есть, др.)
 
+## Программы
+
+* <a href = "https://docs.google.com/spreadsheets/d/1-u8bvMKHrrYnf8Qaj_IwBGobKjuRBttFFl-1IOKIr0s/edit#gid=757061789">Programming4Kids. Level1 (Minecraft)</a>
+
+* <a href = "https://docs.google.com/spreadsheets/d/1Rtfxd3ASEWGdoqg2s0MK8oKb-JPaub0p6eZESLjYWNI/edit#gid=1146502318">Programming4Kids. Level2 (Minecraft)</a>
+
+* <a href = "https://docs.google.com/spreadsheets/d/1YPFwr5c8SVt4Jb-fqzxS9owrbb_Ehkb9VvN1wnQCTHU/edit#gid=0">FrontEnd</a>
+
+* <a href = "https://docs.google.com/spreadsheets/d/1IN6JNp-SztogK6ScoGRKRlJ_n4euY6ZW/edit#gid=702459186">Design</a>
+  
+* <a href = "https://docs.google.com/document/d/1fyTCP_cpHXISM4vd7155N_xmJEG9HLvFuPyadXPl3X0/edit">GameDev</a>
