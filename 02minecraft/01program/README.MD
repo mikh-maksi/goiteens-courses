@@ -1,9 +1,9 @@
 # Програма
 ## Семестр 1.
 
-|№|Назва|Опис|Додаткові вправи|КХ|
+|№|Назва|Опис|Додаткові вправи|Кахути|
 |---|---|---|---|--|
-|1. |<a href = "../02textbook/lesson01">Знайомство з Minecraft Education </a> |Продемонструй іншим, що ти можеш зробити з допомогою коду.||<a href = 'https://create.kahoot.it/share/1-minecraft/ea736e61-2a4c-4605-a115-14220833c706'>КХ1</a>|
+|1. |<a href = "../02textbook/lesson01">Знайомство з Minecraft Education </a> |Продемонструй іншим, що ти можеш зробити з допомогою коду.|Дод. 1|<a href = 'https://create.kahoot.it/share/1-minecraft/ea736e61-2a4c-4605-a115-14220833c706'>КХ1</a>|
 |2. |<a href = "../02textbook/lesson02">Будуємо споруди.</a>| Будуємо споруди. Виклик Агента.|<a href = "../06additionaltasks#task2/">Дод. 2</a>|<a href = 'https://create.kahoot.it/share/minecraft-2/2319195d-9fee-4d6d-9516-7c368a8b89f8'>КХ2</a>||
 |3. |<a href = "../02textbook/lesson03">Спільна робота.</a> | Спільна робота. Агент виконує найпростіші команди. Саджає квітки по квадрату |<a href = "../06additionaltasks#task3/">Дод. 3</a>|КХ3|
 |4. |<a href = "../02textbook/lesson04">Програмний код</a> |Minecraft Education: програмний код для Гравця та окремо для Агента. Садить ряд дерев, тоді два паралельних ряди. Агент саджає дерева по квадрату |<a href = "../06additionaltasks#task4/">Дод. 4</a>|<a href = 'https://create.kahoot.it/share/minecraft-4/ece3aef7-a443-485b-85ab-783d1ca76e20'>КХ4</a>|
@@ -13,13 +13,13 @@
 |8. |<a href = "../02textbook/lesson08">Акваріум</a>|Використання світових координат|<a href = "../06additionaltasks#task8/">Дод. 8</a>|<a href = 'https://create.kahoot.it/share/minecraft-8/bd212547-7d32-4bd7-b2f9-f234f4d49b99'>КХ8</a>|
 |9. |<a href = "../02textbook/lesson09">Світлофор</a>|Створення Мобів. Сад з тваринами|<a href = "../06additionaltasks#task9/">Дод. 9</a>|<a href = 'https://create.kahoot.it/share/minecraft-9/39201af2-d82c-41f4-8588-6e674ff113ff'>КХ9</a>|
 |10.|<a href = "../02textbook/lesson10"> Складні грядки</a>|Загін з папугами|<a href = "../06additionaltasks#task10/">Дод. 10</a>|<a href = 'https://create.kahoot.it/share/minecraft-11/ab1fa7d1-f1e8-4c5e-8f93-d10d3e2e13fe'>КХ10</a>|
-|11.|<a href = "../02textbook/lesson11"> Гарбуз, дерево, золото</a>|Створення вежі методом охолодження лави. Метод побудови квадрату Агентом вниз||<a href = 'https://create.kahoot.it/share/minecraft-11/ab1fa7d1-f1e8-4c5e-8f93-d10d3e2e13fe'>КХ11</a>|
-|12.|<a href = "../02textbook/lesson12"> Веселка|Використовуємо “Геймплей” та пишемо текст тривимірно</a>||КХ12|
-|13.|<a href = "../02textbook/lesson13"> Проект|Побудова різних просторових геометричних фігур: кола, лінії, сфери</a>||<a href = 'https://create.kahoot.it/share/minecraft-13/3352d252-28c2-4011-8292-bfad8e7dd5bc'>КХ13</a>|
-|14.|<a href = "../02textbook/lesson14"> Перший колективний проект|Змінні. Побудова квадрату і прямокутника</a>||<a href = 'https://create.kahoot.it/share/minecraft-ee-14/bca2eeef-087f-4f52-9cb2-d4f90c8df09d'>КХ14</a>|
-|15.|<a href = "../02textbook/lesson15"> Перший колективний проект</a>|Проект ”Світлофор”||<a href = 'https://create.kahoot.it/share/minecraft-ee-15/f590ae7f-a66b-482d-9def-6ebaad8bf2ca'>КХ15</a>|
-|16.|<a href = "../02textbook/lesson16"> Перший колективний проект</a>|Дорога, Зебра біля Світлофору||<a href = 'https://create.kahoot.it/share/minecraft-ee-16/5e9a5b57-d896-46e1-ae2a-87c3fe319fd8'>КХ16</a>|
-|17.|<a href = "../02textbook/lesson17"> Презентація проекту</a>|Математика і піраміда зі зміннними||<a href = 'https://create.kahoot.it/share/minecraft-ee-16/5e9a5b57-d896-46e1-ae2a-87c3fe319fd8'>КХ17</a>|
+|11.|<a href = "../02textbook/lesson11"> Гарбуз, дерево, золото</a>|Створення вежі методом охолодження лави. Метод побудови квадрату Агентом вниз|Дод. 11|<a href = 'https://create.kahoot.it/share/minecraft-11/ab1fa7d1-f1e8-4c5e-8f93-d10d3e2e13fe'>КХ11</a>|
+|12.|<a href = "../02textbook/lesson12"> Веселка|Використовуємо “Геймплей” та пишемо текст тривимірно</a>|Дод. 12|КХ12|
+|13.|<a href = "../02textbook/lesson13"> Проект|Побудова різних просторових геометричних фігур: кола, лінії, сфери</a>|Дод. 13|<a href = 'https://create.kahoot.it/share/minecraft-13/3352d252-28c2-4011-8292-bfad8e7dd5bc'>КХ13</a>|
+|14.|<a href = "../02textbook/lesson14"> Перший колективний проект|Змінні. Побудова квадрату і прямокутника</a>|Дод. 14|<a href = 'https://create.kahoot.it/share/minecraft-ee-14/bca2eeef-087f-4f52-9cb2-d4f90c8df09d'>КХ14</a>|
+|15.|<a href = "../02textbook/lesson15"> Перший колективний проект</a>|Проект ”Світлофор”|Дод. 15|<a href = 'https://create.kahoot.it/share/minecraft-ee-15/f590ae7f-a66b-482d-9def-6ebaad8bf2ca'>КХ15</a>|
+|16.|<a href = "../02textbook/lesson16"> Перший колективний проект</a>|Дорога, Зебра біля Світлофору|Дод. 16|<a href = 'https://create.kahoot.it/share/minecraft-ee-16/5e9a5b57-d896-46e1-ae2a-87c3fe319fd8'>КХ16</a>|
+|17.|<a href = "../02textbook/lesson17"> Презентація проекту</a>|Математика і піраміда зі зміннними|Дод. 17|<a href = 'https://create.kahoot.it/share/minecraft-ee-16/5e9a5b57-d896-46e1-ae2a-87c3fe319fd8'>КХ17</a>|
 ## Семестр 2.
 18. використання датчиків, робота зі звуками, текстом
 19. конструктор. Діалоги між персонажами
