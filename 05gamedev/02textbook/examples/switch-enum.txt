@@ -1,0 +1,107 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace @if
+{
+    enum WC3Fraction
+    {
+        Orc,
+        Human,
+        Elf,
+        Undead
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //InputExample();
+            EnumerationExample();
+        }
+        static void InputExample()
+        {
+            string words = Console.ReadLine();
+            int x = int.Parse(words);
+            Console.WriteLine(x * 2);
+
+            double d = 4.4;
+            double d2 = double.Parse(Console.ReadLine());
+        }
+        static void TernaryExample()
+        {
+            /*dolgaaa i plohaa
+         int modul;
+         int a = 6;
+         if(a>0)
+         {
+             modul = a;
+         }
+         else
+         {
+             modul = -a;
+         }*/
+
+            int a = 6;
+            int modul = a > 0 ? a : -a;
+
+            string BodyPart = "calf";
+            int damage = 42;
+            int hp = 104;
+            //если попали в голову - нанести тройной урон.
+            // иначе - обычный
+            hp -= BodyPart == "head" ? 3 * damage : damage;
+        } 
+
+        static void SwitchExample()
+        {
+            string language = "UA";
+
+            switch(language)
+            {
+                case "UA":
+                    Console.WriteLine("pryvit");
+                    break;
+
+                case "RU":
+                    Console.WriteLine("darova");
+                    break;
+
+                case "SP":
+                    Console.WriteLine("Hola!");
+                    break;
+
+                case "EN":
+                    Console.WriteLine("Hi");
+                    break;
+
+                case "orc":
+                case "troll":
+                case "gnoll":
+                    Console.WriteLine("fsdfdsgsdfgghfghjsfgg");
+                    break;
+            }
+
+        }
+
+        static void EnumerationExample()
+        {
+            ///int       x
+            WC3Fraction myArmyFraction = WC3Fraction.Human;
+
+            if(myArmyFraction == WC3Fraction.Orc)
+            {
+                Console.WriteLine("bratunia!!");
+            }
+
+            Console.WriteLine(myArmyFraction.ToString());
+
+            myArmyFraction++;
+
+            Console.WriteLine(myArmyFraction.ToString());
+
+        }
+    }
+}

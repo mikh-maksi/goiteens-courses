@@ -1,0 +1,42 @@
+using System.IO;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Functions0();
+    }
+
+
+    static void Functions0()
+    {
+
+        int x=34, y=56, z= 24;
+
+        int result =
+            Max( Max(x,y), z );
+
+        Console.WriteLine(result);
+    }
+    static int Max(int a, int b)
+    {
+        return a>b? a:b;
+    }
+
+
+    static int Sign(double X)
+    {
+        if(X<0)
+            return -1;
+        if(X==0)
+            return 0;
+        return 1;
+    }
+    static void Proc16()
+    {
+        double a=4, b=6;
+        int result = Sign(A)+Sign(B);
+        Console.WriteLine(result);
+    }
+}

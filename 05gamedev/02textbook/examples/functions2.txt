@@ -1,0 +1,96 @@
+using System.IO;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        MegaGameExample();
+    }
+
+    static int GetMax(int[] nums)
+    {
+        int max = nums[0];
+        for(int i=0; i<nums.Length; i++)
+            if(nums[i]>max)
+                max = nums[i];
+
+        return max;
+    }
+    static void kjshfsdhfgsdkfg()
+    {
+        int[] array1 = new int[]{32,2323,4,23,23,3242323,4};
+        int max1 = GetMax(array1);
+        Console.WriteLine(max1);
+    }
+
+    static double Distance
+        (int x1, int y1, int x2, int y2)
+    {
+        return Math.Sqrt((x1-x2)*(x1-x2)+
+                        (y1-y2)*(y1-y2));
+    }
+
+    /*static int VictimCount(int x1, int y1, 
+    int x2, int y2, int x3, int y3, 
+    int x4, int y4, int X, int Y, int R) 
+    {
+        int count =0;
+
+        if(Distance(x1,y1,X,Y)<=R)
+            count ++;
+        if(Distance(x2,y2,X,Y)<=R)
+            count ++;
+        if(Distance(x3,y3,X,Y)<=R)
+            count ++;
+        if(Distance(x4,y4,X,Y)<=R)
+            count ++;
+
+        return count;
+    }*/
+    static int VictimCount(int[] x, int[] y, int X, int Y, int R) 
+    {
+        int count =0;
+
+        for(int i=0; i<x.Length; i++)
+            if(Distance(x[i],y[i],X,Y)<=R)
+                count ++;
+
+        return count;
+    }
+
+    struct Point
+    {
+        public int x;
+        public int y;
+    }
+    static int VictimCount_Clever
+        (Point[] enemies, Point Explotion,
+            int Radius)
+    {
+        int count =0;
+        foreach(var enemy in enemies)
+            if(Distance(enemy.x, enemy.y,
+                Explotion.x, Explotion.y)
+                <=Radius
+            )
+                count ++;
+
+        return count;
+    }
+
+    static void MegaGameExample()
+    {
+        // int x1 = 3, y1 = 2, x2 = 4, y2 = 4, x3= 2, y3 = 7 , x4= 5, y4 = 6
+        int[] x = new int[]{3, 4, 2, 5};
+        int[] y = new int[]{2, 4, 7, 6};
+
+        int GrenadeBabaxX = 3;
+        int GrenadeBabaxY = 4;
+        int GrenadeBabaxRadius = 3;
+
+        Console.Write("We killed ");
+        Console.Write(VictimCount(x,y, GrenadeBabaxX, GrenadeBabaxY, GrenadeBabaxRadius));
+        Console.WriteLine(" people ^_^");
+    }
+}

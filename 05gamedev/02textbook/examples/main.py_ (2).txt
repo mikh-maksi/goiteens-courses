@@ -1,0 +1,121 @@
+import random
+import os
+
+##level
+height, width = 10, 12
+field = [[]]
+
+block_freq = 25
+
+##character
+charX,charY = 0,0
+
+##input
+dx,dy = 0,0
+
+##finish
+finishX, finishY= 0, 0
+
+reached_finish = False
+
+
+
+def draw():
+    for i in range(height):
+      ## height times draw one row
+      for j in range(width):
+        ## front
+        if(charX==j and charY==i):
+          print('@', end='')
+        else:
+          print(field[i][j], end='')
+      
+      print()
+      ## end of the row
+
+def create_map():
+    for i in range(height):
+      field.append([])
+      ## height times draw one row
+      for j in range(width):
+        rand_int = random.randint(0,100)
+        if(rand_int<block_freq):
+          symbol = '#'
+        else:
+          symbol = ' '
+
+        field[i].append(symbol)
+
+    global finishX, finishY
+    finishX = random.randint(0, width-1)
+    finishY = random.randint(0, height-1)
+    field[finishY][finishX] = 'F'
+
+def place_character():
+    global charX, charY
+    charX = random.randint(0, width-1)
+    charY = random.randint(0, height-1)
+
+def init():
+    create_map()
+    place_character()
+    draw()
+
+def is_end_game():
+    return reached_finish
+
+def get_input():
+    inp = input().split()[0]
+
+    global dx
+    global dy
+
+    dx, dy = 0,0
+
+    if(inp=='a' or inp=='A'):
+      dx = -1
+    if(inp=='s' or inp=='S'):
+      dy = 1
+    if(inp=='d' or inp=='d'):
+      dx = 1
+    if(inp=='w' or inp=='W'):
+      dy = -1
+
+def can_go_to(newX, newY):
+    if(newX<0 or newY<0 or newX>=width or newY>=height):
+      return False
+
+    if(field[newY][newX]=='#'):
+      return False
+
+    return True
+
+def go_to(newX, newY):
+    global charX, charY
+    charX, charY = newX, newY
+
+def try_go_to(newX, newY):
+    if(can_go_to(newX, newY)):
+      go_to(newX, newY)
+
+def check_finish():
+    global reached_finish 
+    if(charX==finishX and charY==finishY):
+      reached_finish = True
+
+def logic():
+    try_go_to(charX+dx, charY+dy)
+
+    check_finish()
+
+def main():
+    init()
+
+    while(not is_end_game()):
+      get_input()
+      logic()
+      draw()
+
+    print("\n\n\n\nYOU WIN!!!!")
+
+main()
